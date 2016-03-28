@@ -1,24 +1,19 @@
 .head{
 	background-color: #333333;
-	width:100%;
-	margin-bottom: 10px;
-
 }
 .main {
     float: left;
     width: 60%;
     border-style: groove;
-    margin:10px ;
-    padding: 10px;
-    
+    margin:10px;
+    margin-right: 40px;
+    padding: 10px;   
 }
-
 .side {
     float: right;
     width: 30%;
     border-style: groove;
     margin: 10px ;
-    margin-right:40px; 
     padding: 10px;
 }
 .head img{
@@ -26,46 +21,58 @@
 	padding-left: 30px;
 	padding-top: 10px;
 	padding-bottom: 10px;
-
 }
 .list a{
 	text-decoration: none;
 	color: white;
-
 }
-
 .list li {
     
     display: inline-block;
     float: right;
     text-decoration: none;
-
 }
-.t{
+.submit{
+	background-color: #3355d0;
+	width:250px;
+	color: white;
+	padding: 5px;
+}
+.title{
 	font-weight: 100;
 }
-.i,.a,.b,.c,.d,.e,.f,.g,.h,.j{
+.picture{
 
 	float: left;
 	width:15%;
 	border-style: groove;
 	text-align: center;
 	margin: 10px 8px;
-  
 }
-table,th,td{
+.picture img{
+	width: 100px;
+	height: 100px;
+}
+table{
+	text-align: left;
+	width:100%;
+}
+th,td{
 	 
 	 text-align: left;	  
-	 
-}
+	 }
  thead th{
-	background-color:#333333;
-	color: white;
+ 	background-color:#333333;
+ 	color: white;
 }
 p.main{
 	float: left;
 	background-color: #333333;
-	width: 100%;
-	padding-left: 50%;
+	width: 97%;
+	text-align: center;
 	color: white;
+}
+body{
+	margin: 0px;
+	padding: 0px;
 }
