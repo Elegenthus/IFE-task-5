@@ -1,5 +1,6 @@
 .head{
 	background-color: #333333;
+	width: 100%;
 }
 .main {
     float: left;
@@ -11,7 +12,7 @@
 }
 .side {
     float: right;
-    width: 30%;
+    width: 400px;
     border-style: groove;
     margin: 10px ;
     padding: 10px;
@@ -50,8 +51,8 @@
 	margin: 10px 8px;
 }
 .picture img{
-	width: 100px;
-	height: 100px;
+	width: 75%;
+	height: 75%;
 }
 table{
 	text-align: left;
@@ -68,11 +69,14 @@ th,td{
 p.main{
 	float: left;
 	background-color: #333333;
-	width: 97%;
+	width: 100%;
 	text-align: center;
 	color: white;
 }
 body{
 	margin: 0px;
 	padding: 0px;
+}
+.description{
+	vertical-align: top;
 }
