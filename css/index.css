@@ -1,38 +1,59 @@
 .head{
 	background-color: #333333;
 	width: 100%;
+	padding: 0px;
+	margin: 0px;
+	height: 70px;
+}
+.main1{
+	float: left;
+	width: 60%;
+	margin:10px;
+	margin-right: 50px;
 }
 .main {
-    float: left;
-    width: 60%;
+	display: block;
+    width: 100%;
+    height: auto;
     border-style: groove;
-    margin:10px;
-    margin-right: 40px;
     padding: 10px;   
 }
 .side {
-    float: right;
+    float: left;
     width: 400px;
     border-style: groove;
-    margin: 10px ;
+    margin:10px;
+    margin-right: 120px ;
     padding: 10px;
+   
 }
 .head img{
 	float: left;
-	padding-left: 30px;
+	padding-left: 5px;
+	padding-right: 40px;
 	padding-top: 10px;
 	padding-bottom: 10px;
+}
+.head:after{
+	content: "";
+	display: block;
+	clear:both;
 }
 .list a{
 	text-decoration: none;
 	color: white;
 }
-.list li {
-    
-    display: inline-block;
+ul{
     float: right;
+    padding: 0px;
+    margin: 0px;	
+}
+.list li{
+	display: inline-block;
+    line-height: 70px;
     text-decoration: none;
 }
+
 .submit{
 	background-color: #3355d0;
 	width:250px;
@@ -43,8 +64,7 @@
 	font-weight: 100;
 }
 .picture{
-
-	float: left;
+	display: inline-block;
 	width:15%;
 	border-style: groove;
 	text-align: center;
@@ -66,7 +86,7 @@ th,td{
  	background-color:#333333;
  	color: white;
 }
-p.main{
+.foot{
 	float: left;
 	background-color: #333333;
 	width: 100%;
@@ -74,8 +94,8 @@ p.main{
 	color: white;
 }
 body{
-	margin: 0px;
-	padding: 0px;
+	margin:0px;
+	padding:0px;
 }
 .description{
 	vertical-align: top;
