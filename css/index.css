@@ -8,21 +8,26 @@
 .main1{
 	float: left;
 	width: 60%;
-	margin:10px;
+	margin:20px;
 	margin-right: 50px;
+}
+.image{
+	width: 30%;
+	height: 30%;
 }
 .main {
 	display: block;
     width: 100%;
     height: auto;
     border-style: groove;
-    padding: 10px;   
+    padding: 10px; 
+    margin-top: 20px;  
 }
 .side {
     float: left;
     width: 400px;
     border-style: groove;
-    margin:10px;
+    margin:40px;
     margin-right: 120px ;
     padding: 10px;
    
@@ -43,7 +48,7 @@
 	text-decoration: none;
 	color: white;
 }
-ul{
+.list{
     float: right;
     padding: 0px;
     margin: 0px;	
