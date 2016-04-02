@@ -3,173 +3,177 @@
 
 <head>
     <meta charset="utf8">
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="./css/index.css">
 </head>
 
 <body>
-   <fieldset  class="head">
-    <img src="\images\baidu.png">
-    <ul class="list">
-        <li><a href="">导航链接四&emsp;</a></li>
-        <li><a href="">导航链接三&emsp;</a></li>
-        <li><a href="">导航链接二&emsp;</a></li>
-        <li><a href="">导航链接一&emsp;</a></li>
-    </ul>
-    </fieldset>
-   
-        <div class="main">
-            <h1>文章一级标题</h1>
-            <h2 class="t">文章二级标题</h2>
-            <h3 class="t">文章三级标题</h3>
-            <p>&emsp;&emsp;这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了</p>
-            <p>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了</p>
-            <p>这是一个很长很长的段落，这是一个很长很长的段落，<a href="http://ife.baidu.com">这有一个链接链接到http://ife.baidu.com</a>这是一个很长很长的段落，这是一个很长很长的段落，<strong>这有个粗体字</strong>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落。</p>
-            <div ><img src="\images\task5.png"></div>
-            <p>&emsp;&emsp;这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了</p>
-            <p>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，<strong>这里有个粗体字</strong>这是一个很长很长的段落，这是一个很长很长的段落，<a href="http://ife.baidu.com">这里有一个链接点击后打开到新窗口连接到http：//ife.baidu.com</a>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落。</p>
-        </div>
-        <div class="side">
+    <div class="head">
+	    <img src="./images/baidu.png">
+	    <ul class="list">
+	        <li><a href="">导航链接一&emsp;</a></li>
+	        <li><a href="">导航链接二&emsp;</a></li>
+	        <li><a href="">导航链接三&emsp;</a></li>
+	        <li><a href="">导航链接四&emsp;</a></li>
+	    </ul>
+    </div>
+    <form class="side">
             <h1>这里以后是一个侧栏，这是侧栏的标题</h1>
-            <p>请输入邮箱地址：
-                <input type="txt" value="这是一个文本输入框"></input>
-                <p class="t">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;邮箱地址请按要求格式输入</p>
-            </p>
-            <p>请输入密码
+            请输入邮箱地址：
+                <input type="text" value="这是一个文本输入框"></input>
+                <p class="title">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;邮箱地址请按要求格式输入</p>
+            <div>
+            请输入密码
                 <input type="password"></input>
-            </p>
-            <p>请重复输入密码
+            </div>
+            </br>
+            <div>请重复输入密码
                 <input type="password"></input>
-                <p class="t">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;密码为十到十六位英文数字</p>
-                </p>
-            <p>性别
+                <p class="title">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;密码为十到十六位英文数字</p>
+               </div> 
+               </br>
+            <div>
+            性别
                 <input type="radio" name="sex" value="male">
                 <label for="male">男</label>
                 <input type="radio" name="sex" value="female">
                 <label for="female">女</label>
-            </p>
-            <p>
+            
+            
                 <label for="city">城市</label>
                 <select id="city">
                     <option value="0">北京</option>
                     <option value="1">武汉</option>
                 </select>
-            </p>
-            <p>爱好
+            </div>
+            </br>
+            <div>
+            爱好
                 <input type="checkbox" name="hobby" value="sports">运动
                 <input type="checkbox" name="hobby" value="arts">艺术
                 <input type="checkbox" name="hobby" value="science">科学
-            </p>
-            <p>
-                <label for="description">个人描述</label>
+            </div>
+            </br>
+            <div>
+                <label for="description" class="description">个人描述</label>
                 <textarea name="description" value="这是一个多行输入框，输入您的个人描述" rows="4"></textarea>
-            </p>
-            <input type="submit" value="确认提交" style="background-color: #3355d0;width:250px;color: white;padding: 5px;"></input>
-        </div>
-    
+            </div>
+            </br>
+            <div>
+            <input type="submit" value="确认提交" class="submit"></input>
+            </div>
+    </form>
+    <div class="main1">
+        <div class="main">
+            <h1>文章一级标题</h1>
+            <h2 class="title">文章二级标题</h2>
+            <h3 class="title">文章三级标题</h3>
+            <p>&emsp;&emsp;这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了</p>
+            <p>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了</p>
+            <p>这是一个很长很长的段落，这是一个很长很长的段落，<a href="http://ife.baidu.com">这有一个链接链接到http://ife.baidu.com</a>这是一个很长很长的段落，这是一个很长很长的段落，<strong>这有个粗体字</strong>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落。</p>
+            <div ><img src="./images/task5.png" class="image"></div>
+            <p>&emsp;&emsp;这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了</p>
+            <p>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，<strong>这里有个粗体字</strong>这是一个很长很长的段落，这是一个很长很长的段落，<a href="http://ife.baidu.com">这里有一个链接点击后打开到新窗口连接到http：//ife.baidu.com</a>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落。</p>
+        </div>    
         <div class="main">
             <h1>另一篇文章一级标题</h1>
-            <h2 class="t">文章二级标题</h2>
-            <h4 class="t">文章作者 文章发表时间</h4>
+            <h2 class="title">文章二级标题</h2>
+            <h4 class="title">文章作者 文章发表时间</h4>
             <p>&emsp;&emsp;这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了</p>
             <p>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了</p>
             <p>这是一个很长很长的段落，这是一个很长很长的段落，<a href="http://ife.baidu.com">这里有一个链接链接到http://ife.baidu.com</a>这是一个很长很长的段落，这是一个很长很长的段落,<strong>这里有个粗体字</strong>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落。</p>
-            <div ><img src="\images\task5.png"></div>
+            <div ><img src="./images/task5.png" class="image"></div>
             <ul>
                 <li>列表项目一</li>
                 <li>列表项目二</li>
                 <li>列表项目三</li>
             </ul>
         </div>
-    
-    <div class="main">
-        <h1>图片</h1>
-        <div class="a">
-         好看的图片</br><img src="\images\task5.png"width="100" height="100"></br>
-         </div>
-         <div class="b">
-         好看的图片</br><img src="\images\task5.png"width="100" height="100"></br>
-        </div>
-        <div class="c">
-         好看的图片</br><img src="\images\task5.png"width="100" height="100"></br>
-         </div>
-         <div class="d">
-         好看的图片</br><img src="\images\task5.png"width="100" height="100"></br>
-         </div>
-        <div class="e">
-         好看的图片</br><img src="\images\task5.png"width="100" height="100"></br>
-         </div>
-         <div class="f">
-         好看的图片</br><img src="\images\task5.png"width="100" height="100"></br>
-        </div>
-        <div class="g">
-         好看的图片</br><img src="\images\task5.png"width="100" height="100"></br>
-         </div>
-         <div class="h">
-         好看的图片</br><img src="\images\task5.png"width="100" height="100"></br>
-         </div>
-         <div class="i">
-         好看的图片</br><img src="\images\task5.png"width="100" height="100"></br>
-         </div>
-         <div class="j"> 
-         好看的图片</br><img src="\images\task5.png"width="100" height="100"></br>
-        </div>
+   	    <div class="main">
+	        <h1>图片</h1>
+	        <div class="picture">
+	         好看的图片</br><img src="./images/task5.png"></br>
+	         </div>
+	         <div class="picture">
+	         好看的图片</br><img src="./images/task5.png"></br>
+	        </div>
+	        <div class="picture">
+	         好看的图片</br><img src="./images/task5.png"></br>
+	         </div>
+	         <div class="picture">
+	         好看的图片</br><img src="./images/task5.png"></br>
+	         </div>
+	        <div class="picture">
+	         好看的图片</br><img src="./images/task5.png"></br>
+	         </div>
+	         <div class="picture">
+	         好看的图片</br><img src="./images/task5.png"></br>
+	        </div>
+	        <div class="picture">
+	         好看的图片</br><img src="./images/task5.png"></br>
+	         </div>
+	         <div class="picture">
+	         好看的图片</br><img src="./images/task5.png"></br>
+	         </div>
+	         <div class="picture">
+	         好看的图片</br><img src="./images/task5.png"></br>
+	         </div>
+	         <div class="picture"> 
+	         好看的图片</br><img src="./images/task5.png"></br>
+	        </div>
+		</div>
+	    <div class="main">
+	        <h1>最后一篇文章一级标题
+	    	</h1>
+	        <h2 class="title">文章二级标题
+	    	</h2>
+	        <h3 class="title">文章作者 文章发表时间
+	    	</h3>
+	        <ol>
+	            <li>排名1</li>
+	            <li>排名2</li>
+	            <li>排名3</li>
+	        </ol>
+	        </br>
+	        <table>
+	            <caption>下面是一个表格，我这里给表格加了一个border=“1”好让你看出这是一个表格，你们不用写html时不需要加</caption>
+	            <thead >
+	                <tr>
+	                    <th>表头</th>
+	                    <th>表头</th>
+	                    <th>表头</th>
+	                </tr>
+	            </thead>
+	            <tbody>
+	                <tr>
+	                    <td>表内容单元格</td>
+	                    <td>表内容单元格</td>
+	                    <td>操作</td>
+	                </tr>
+	                <tr>
+	                    <td>表内容单元格</td>
+	                    <td>表内容单元格</td>
+	                    <td>操作</td>
+	                </tr>
+	                <tr>
+	                    <td>表内容单元格</td>
+	                    <td>表内容单元格</td>
+	                    <td>操作</td>
+	                </tr>
+	                <tr>
+	                    <td>表内容单元格</td>
+	                    <td>表内容单元格</td>
+	                    <td>操作</td>
+	                </tr>
+	                <tr>
+	                    <th>总计</th>
+	                    <th colspan="2">1000</th>
+	                </tr>
+	            </tbody>
+	        </table>
+	    </div>
     </div>
-    
-    <div class="main">
-        <h1>最后一篇文章一级标题
-    	</h1>
-        <h2 class="t">文章二级标题
-    	</h2>
-        <h3 class="t">文章作者 文章发表时间
-    	</h3>
-        <ol>
-            <li>排名1</li>
-            <li>排名2</li>
-            <li>排名3</li>
-        </ol>
-        </br>
-        <table   width=100%>
-            <caption>下面是一个表格，我这里给表格加了一个border=“1”好让你看出这是一个表格，你们不用写html时不需要加</caption>
-            <thead >
-                <tr>
-                    <th>表头</th>
-                    <th>表头</th>
-                    <th>表头</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>表内容单元格</td>
-                    <td>表内容单元格</td>
-                    <td>操作</td>
-                </tr>
-                <tr>
-                    <td>表内容单元格</td>
-                    <td>表内容单元格</td>
-                    <td>操作</td>
-                </tr>
-                <tr>
-                    <td>表内容单元格</td>
-                    <td>表内容单元格</td>
-                    <td>操作</td>
-                </tr>
-                <tr>
-                    <td>表内容单元格</td>
-                    <td>表内容单元格</td>
-                    <td>操作</td>
-                </tr>
-                <tr>
-                    <th>总计</th>
-                    <th colspan="2">1000</th>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-    
     <div>
-    
-        <p class="main">版权所有©</p>
+        <p class="foot">版权所有©</p>
     </div>
 </body>
-
 </html>
