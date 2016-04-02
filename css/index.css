@@ -6,10 +6,8 @@
 	height: 70px;
 }
 .main1{
-	float: left;
-	width: 60%;
-	margin:20px;
-	margin-right: 50px;
+	margin: 60px 540px 60px 20px;
+	padding: 0px;
 }
 .image{
 	width: 30%;
@@ -17,20 +15,17 @@
 }
 .main {
 	display: block;
-    width: 100%;
     height: auto;
     border-style: groove;
     padding: 10px; 
-    margin-top: 20px;  
+    margin: 20px;
 }
 .side {
-    float: left;
+    float: right;
     width: 400px;
     border-style: groove;
-    margin:40px;
-    margin-right: 120px ;
-    padding: 10px;
-   
+    margin: 60px;
+    padding: 10px;   
 }
 .head img{
 	float: left;
@@ -40,6 +35,16 @@
 	padding-bottom: 10px;
 }
 .head:after{
+	content: "";
+	display: block;
+	clear:both;
+}
+.side:after{
+	content: "";
+	display: block;
+	clear:both;
+}
+.foot:after{
 	content: "";
 	display: block;
 	clear:both;
@@ -54,7 +59,7 @@
     margin: 0px;	
 }
 .list li{
-	display: inline-block;
+	display: inline;
     line-height: 70px;
     text-decoration: none;
 }
