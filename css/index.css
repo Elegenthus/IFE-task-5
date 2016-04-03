@@ -37,9 +37,14 @@
 .head:after{
 	content: "";
 	display: block;
-	clear:both;
+	clear:none;
 }
 .side:after{
+	content: "";
+	display: block;
+	clear:both;
+}
+.main1:after{
 	content: "";
 	display: block;
 	clear:both;
@@ -104,6 +109,7 @@ th,td{
 	color: white;
 }
 body{
+	float: left;
 	margin:0px;
 	padding:0px;
 }
