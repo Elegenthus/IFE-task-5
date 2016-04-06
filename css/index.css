@@ -4,10 +4,13 @@
 	padding: 0px;
 	margin: 0px;
 	height: 70px;
+	overflow: hidden;
+	min-width: 800px;
 }
 .main1{
+	min-width: 200px;
 	margin: 60px 540px 60px 20px;
-	padding: 0px;
+	padding: 0px;   
 }
 .image{
 	width: 30%;
@@ -34,25 +37,9 @@
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
-.head:after{
-	content: "";
-	display: block;
-	clear:none;
-}
-.side:after{
-	content: "";
-	display: block;
-	clear:both;
-}
-.main1:after{
-	content: "";
-	display: block;
-	clear:both;
-}
-.foot:after{
-	content: "";
-	display: block;
-	clear:both;
+.content{
+	overflow: hidden;
+	min-width: 800px;
 }
 .list a{
 	text-decoration: none;
@@ -94,10 +81,9 @@ table{
 	width:100%;
 }
 th,td{
-	 
 	 text-align: left;	  
 	 }
- thead th{
+thead th{
  	background-color:#333333;
  	color: white;
 }
@@ -109,7 +95,6 @@ th,td{
 	color: white;
 }
 body{
-	float: left;
 	margin:0px;
 	padding:0px;
 }
